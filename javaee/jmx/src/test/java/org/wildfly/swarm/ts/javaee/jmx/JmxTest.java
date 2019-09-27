@@ -29,7 +29,7 @@ public class JmxTest {
         assertThat(response).isEqualTo("Hello");
     }
 
-//    @Test
+    @Test
     public void localJmx() throws JMException {
         MBeanServer jmx = ManagementFactory.getPlatformMBeanServer();
 

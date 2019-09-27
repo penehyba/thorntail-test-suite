@@ -67,11 +67,11 @@
             <version>${version.org.jboss.marshalling}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>io.thorntail.ts</groupId>
-            <artifactId>ts-common</artifactId>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>io.thorntail.ts</groupId>-->
+<!--            <artifactId>ts-common</artifactId>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
 </project>
