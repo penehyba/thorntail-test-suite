@@ -13,6 +13,8 @@ import org.eclipse.microprofile.config.Config;
 
 @WebServlet("/empty-properties")
 public class EmptyPropertiesServlet extends HttpServlet {
+    // TODO 2.7.0
+    // https://github.com/eclipse/microprofile-config/issues/446
     private static final String EMPTY_PROPERTY = "my.empty.system.property";
 
     private static final String PROP_FILE_EMPTY_PROPERTY = "my.empty.property.in.config.file";

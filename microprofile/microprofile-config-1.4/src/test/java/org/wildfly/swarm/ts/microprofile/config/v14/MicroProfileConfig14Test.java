@@ -22,8 +22,10 @@ public class MicroProfileConfig14Test {
     public void test() throws IOException {
         String response = Request.Get("http://localhost:8080/").execute().returnContent().asString();
         assertThat(response).isEqualTo(""
+//                                                + "my.int.property: 42\n"
+//                                                + "my.int.property: 42\n"
                                                 + "my.byte.property: 100\n"
-                                                + "my.byte.property: 100\n"
+                                                + "my.byte.obj.property: 101\n"
                                                 + "my.short.property: 10000\n"
                                                 + "my.short.property: 10000\n"
                                                 + "my.char.property: 'Q'\n"

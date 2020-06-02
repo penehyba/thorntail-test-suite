@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(Arquillian.class)
 @DefaultDeployment
-public class MicroprofileRestClient14Test {
+public class MicroProfileRestClient14Test {
     // TODO 2.7.0
     // https://download.eclipse.org/microprofile/microprofile-rest-client-1.4.0/microprofile-rest-client-1.4.0.html#release_notes_14
     // what about version 1.4.1? Check https://issues.redhat.com/browse/THORN-2558 , nothing new

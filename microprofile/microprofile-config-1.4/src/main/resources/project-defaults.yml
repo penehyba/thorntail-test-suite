@@ -6,7 +6,9 @@ swarm:
           dir: ${project.build.directory}/classes/configs
         propertiesSource:
           properties:
+            my.int.property: 42
             my.byte.property: 100
+            my.byte.obj.property: 101
             my.short.property: 10000
             my.char.property: Q
 

@@ -1,5 +1,7 @@
 package org.wildfly.swarm.ts.microprofile.rest.client.v13;
 
+import java.io.IOException;
+
 import org.apache.http.client.fluent.Request;
 import org.jboss.arquillian.container.test.api.RunAsClient;
 import org.jboss.arquillian.junit.Arquillian;
@@ -7,13 +9,11 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.wildfly.swarm.arquillian.DefaultDeployment;
 
-import java.io.IOException;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(Arquillian.class)
 @DefaultDeployment
-public class MicroprofileRestClient13Test {
+public class MicroProfileRestClient13Test {
     @Test
     @RunAsClient
     public void configKey() throws IOException {

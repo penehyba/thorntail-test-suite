@@ -22,7 +22,7 @@ public class HelloServlet extends HttpServlet {
     private byte byteProperty;
 
     @Inject
-    @ConfigProperty(name = "my.byte.property")
+    @ConfigProperty(name = "my.byte.obj.property")
     private Byte byteObjProperty;
 
     @Inject
@@ -43,9 +43,8 @@ public class HelloServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-
         resp.getWriter().println("my.byte.property: " + byteProperty);
-        resp.getWriter().println("my.byte.property: " + byteObjProperty);
+        resp.getWriter().println("my.byte.obj.property: " + byteObjProperty);
         resp.getWriter().println("my.short.property: " + shortProperty);
         resp.getWriter().println("my.short.property: " + shortObjProperty);
         resp.getWriter().println("my.char.property: " + charProperty);
